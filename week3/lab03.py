@@ -11,6 +11,7 @@ diceOptions = [1, 2, 3, 4, 5, 6]
 combatStrength = int(input("Enter your combat Strength: (Number between 1-6) "))
 
 if(combatStrength < 1 or combatStrength > 6):
+    isVaild = combatStrength >= 1 and combatStrength
     print("Input must be an integer between 1-6")
 else:
     mCombatStrength = int(input("Enter the monster's combat Strength: "))
